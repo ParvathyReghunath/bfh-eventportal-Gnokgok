@@ -1,2 +1,2 @@
 # bfh-eventportal-Gnokgok
-This is a project to build up event portal for college.
+This is a project to build up an event portal for college.
