@@ -1,4 +1,5 @@
 {% load static %}
+{% static "images" as baseUrl %}
 <!DOCTYPE html>
 <!--
 	Rocket Internet by TEMPLATE STOCK
@@ -59,7 +60,7 @@
 				</div>
 			</div><!-- End col-md-6 -->
 			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="{% static 'images/1.png' %}">
+				<img src="{{baseUrl}}/{{Conference.jpg}}" alt="">
 			</div><!-- End col-md-6 -->
 
 			<div class="clearfix"></div><!-- End clearfix -->
