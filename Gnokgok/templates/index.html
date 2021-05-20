@@ -32,12 +32,15 @@
 		<div class="header-text">
 			<h1>GNOK-GOK</h1>
 			<div class="vertical-line"></div>
-			<p>
-				
+			
+				{% if user.is_authenticated %}
+				<li>Hello, {{user.first_name}}</li>
+                <li><a href="accounts/logout">Logout</a></li><br />
+				{% else %}
 				<li><a href="accounts/register">Register</a></li><br />
 				<li><a href="accounts/login">Login</a></li><br />
-				
-			</p>
+				{% endif %}
+			
 		</div><!-- End HeaderText -->
 	</div><!-- End homeFullScreen -->
 </header><!-- End Header -->
