@@ -34,16 +34,11 @@
 			<div class="vertical-line"></div>
 			
 				{% if user.is_authenticated %}
-				<li>Hello, {{user.first_name}}</li>
+				<h3 style="color:rgb(255, 255, 255)">Hello, {{user.first_name}}</h3>
                 <h4><li><a href="accounts/logout" style="color:rgb(255, 255, 255)">Logout</a></li></h4><br />
 				{% else %}
-<<<<<<< HEAD
 				<h4><a href="accounts/register" style="color:rgb(255, 255, 255)">Register</a></h4><br />
 				<h4><a href="accounts/login" style="color:rgb(255, 255, 255)">Login</a></h4><br />
-=======
-				<h4><a href="accounts/register">Register</a></h4><br />
-				<h4><a href="accounts/login">Login</a></h4><br />
->>>>>>> b899f772bbde0692d79f8b352a92c3c228716609
 				{% endif %}
 			
 		</div><!-- End HeaderText -->
@@ -141,7 +136,7 @@
 			</div><!-- End col-md-12 -->
 
 			<div class="col-md-4 col-sm-4">
-				<img src="{% static 'images/p-1.png' %}">
+				<img src="{% static 'images/codingcompetition.jpg' %}">
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4">
 				<img src="{% static 'images/img.jpg' %}">
@@ -153,13 +148,13 @@
 			<div class="clearfix"></div><!-- End clearfix -->
 
 			<div class="col-md-4 col-sm-4">
-				<img src="{% static 'images/image.jpg' %}">
+				<img src="{% static 'images/dj.jpg' %}">
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4">
-				<img src="{% static 'images/p-5.png' %}">
+				<img src="{% static 'images/codingpro.jpg' %}">
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4 last-img">
-				<img src="{% static 'images/p-6.png' %}">
+				<img src="{% static 'images/quizcompetition.jpg' %}">
 			</div><!-- End col-md-4 -->
 		</div><!-- End row -->
 	</div><!-- End container -->
