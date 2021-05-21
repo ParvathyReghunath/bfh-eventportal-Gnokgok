@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,15 +8,13 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
         <script src='main.js'></script>
-    <style>
-    body {
-        background-image: url("image.jpg");
-    }
-    </style>
+   
         
     </head>
 
+
     <body>
+       
         <center>
         <h1>
         <form action="register" method="post">
@@ -28,10 +27,11 @@
               <input type="password" name="password1" placeholder="Password"><br>
               <input type="password" name="password2" placeholder="Confirm Password"><br>
               <input type="Submit" value="Submit" />
+              
         </form>
         </h1>
         </center>
-        
+         
         <div>
             {% for message in messages %}
             <h3> {{message}} </h3>

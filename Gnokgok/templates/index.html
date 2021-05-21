@@ -1,5 +1,4 @@
 {% load static %}
-{% static "images" as baseUrl %}
 <!DOCTYPE html>
 <!--
 	Rocket Internet by TEMPLATE STOCK
@@ -51,6 +50,7 @@
 <section class="feature">
 	<div class="container">
 		<div class="row">
+			
 			<div class="col-md-6 col-sm-6">
 				<div class="feature-box">
 					<h1>CONFERENCE</h1>
@@ -60,13 +60,13 @@
 				</div>
 			</div><!-- End col-md-6 -->
 			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="{{baseUrl}}/{{Conference.jpg}}" alt="">
+				<img src="{% static 'images/Conference.jpg' %}">
 			</div><!-- End col-md-6 -->
 
 			<div class="clearfix"></div><!-- End clearfix -->
 
 			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="{% static 'images/1.png' %}">
+				<img src="{% static 'images/Music band.jpg' %}">
 			</div><!-- End col-md-6 -->
 			<div class="col-md-6 col-sm-6">
 				<div class="feature-box">
@@ -74,6 +74,54 @@
 					<p></p>
 				</div>
 			</div><!-- End col-md-6 -->
+			<div class="clearfix"></div><!-- End clearfix -->
+
+            <div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1></h1>
+					<p></p>
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="{% static 'images/Ethical Hacking.jpg' %}">
+			</div><!-- End col-md-6 -->
+			<div class="clearfix"></div><!-- End clearfix -->
+
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="{% static 'images/Virtual Reality.jpg' %}">
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1></h1>
+					<p></p>
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="clearfix"></div><!-- End clearfix -->
+
+            <div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1></h1>
+					<p></p>
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="{% static 'images/Jam.jpg' %}">
+			</div><!-- End col-md-6 -->
+			<div class="clearfix"></div><!-- End clearfix -->
+			
+
+			<div class="col-md-6 col-sm-6 nopadding">
+				<img src="{% static 'images/IOT.png' %}">
+			</div><!-- End col-md-6 -->
+			<div class="col-md-6 col-sm-6">
+				<div class="feature-box">
+					<h1></h1>
+					<p></p>
+				</div>
+			</div><!-- End col-md-6 -->
+			<div class="clearfix"></div><!-- End clearfix -->
+			
+
 		</div>
 	</div>
 </section>
@@ -84,7 +132,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1 class="heading">EVENTS</h1>
+				<h1 class="heading">MORE EVENTS</h1>
 			</div><!-- End col-md-12 -->
 
 			<div class="col-md-4 col-sm-4">
@@ -94,13 +142,13 @@
 				<img src="{% static 'images/p-2.png' %}">
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4 last-img">
-				<img src="{% static 'images/p-3.png' %}">
+				<img src="{% static 'images/banner.png' %}">
 			</div><!-- End col-md-4 -->
 
 			<div class="clearfix"></div><!-- End clearfix -->
 
 			<div class="col-md-4 col-sm-4">
-				<img src="{% static 'images/p-4.png' %}">
+				<img src="{% static 'images/image.jpg' %}">
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4">
 				<img src="{% static 'images/p-5.png' %}">
