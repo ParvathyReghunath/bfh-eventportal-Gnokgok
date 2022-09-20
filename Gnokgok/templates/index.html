@@ -58,12 +58,13 @@
 					<p>Date:19-07-2021<br />Time:12:30 PM<br />Location:Conference Hall<br />Maximun no. of participants:	100<br />
 					<h4>This session would be hosted by M V Kurien IPS,Retired IPS Officer.
 					It basically deals with cyber security,cyber bullying,cyber crime etc...</h4> </p>
-					<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"  onclick="change_text()"> Register</button>
+					<button id="btn" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);" onclick="zero()"> Register</button>
 
-				    <script type="text/Javascript">
-						function change_text(){
+				    <script>
+						function zero(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("btn").innerHTML="Registered";
+							document.getElementById("btn").style.color="Yellow";
 						}
                     </script>
          		</div>
@@ -82,14 +83,16 @@
 					<h1>MUSICAL BAND</h1>
 					<p>Date:20-07-2021<br />Time:7:30 PM<br />Location:Indoor Stadium<br />
 					<h4>Thaikkudam Bridge, one of the leading musical band in kerala is there to rock the coming days..</h4></p>
-					<button id="output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+					<button id="output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="one()"> Register</button>
 
-				    <script type="text/Javascript">
-						function change_text(){
+				    <script>
+						function one(){
 							alert('Registered Successfully');
 							document.getElementById("output").innerHTML="Registered";
+							document.getElementById("output").style.color="Yellow";
 						}
                     </script>
+					
          		</div>
 			</div><!-- End col-md-6 -->
 			<div class="clearfix"></div><!-- End clearfix -->
@@ -99,12 +102,13 @@
 					<h1>ETHICAL HACKING WORKSHOP</h1>
 					<p>Date:21-07-2021<br />Time:10:30 AM<br />Location:Seminar hall<br />
 					<h4>Become a bug bounty hunter! Hack websites & web applications like black hat hackers and secure them like experts.</h4></p>
-					<button id="outpu" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+					<button id="2" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="two()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function two(){
 							alert('Registered Successfully');
-							document.getElementById("outpu").innerHTML="Registered";
+							document.getElementById("2").innerHTML="Registered";
+							document.getElementById("2").style.color="Yellow";
 						}
                     </script>
 				</div>
@@ -122,12 +126,13 @@
 					<h1>VIRTUAL REALITY WORKSHOP</h1>
 					<p>Date:22-07-2021<br />Time:11:30 AM<br />Location:Seminar hall<br />
 					<h4>This workshop will guide students in concept development, design, and production of their own interactive VR experiences, games and cinematic VR experiences.</h4></p>
-				    <button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+				    <button id="3" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="three()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function three(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("3").innerHTML="Registered";
+							document.getElementById("3").style.color="Yellow";
 						}
                     </script>
 				</div>
@@ -139,12 +144,13 @@
 					<h1>JAM</h1>
 					<p>Date:25-07-2021<br />Time:10:30 AM<br />Location:Indoor auditorium<br />
 					<h4>Know what to speak before delivering speech.</h4></p>
-					<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+					<button id="4" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="four()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function four(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("4").innerHTML="Registered";
+							document.getElementById("4").style.color="Yellow";
 						}
                     </script>
 				</div>
@@ -163,12 +169,13 @@
 					<h1>IOT WORKSHOP</h1>
 					<p>Date:26-07-2021<br />Time:10:30 AM<br />Location:Indoor auditorium<br />
 					<h4>Are you ready for experiencing workshops conducted by experts from IITs and NITs?</h4></p>
-					<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+					<button id="5" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="five()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function five(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("5").innerHTML="Registered";
+							document.getElementById("5").style.color="Yellow";
 						}
                     </script>
 				</div>
@@ -192,36 +199,39 @@
 			<div class="col-md-4 col-sm-4">
 				<img src="{% static 'images/Coding Competition.jpg' %}"><br>
 				<h3>CODE THE COCKTAILS</h3>
-				<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+				<button id="6" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="six()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function six(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("6").innerHTML="Registered";
+							document.getElementById("6").style.color="Yellow";
 						}
                     </script>
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4">
 				<img src="{% static 'images/Blockchain.jpg' %}"><br>
 				<h3>  BLOCK CHAIN</h3>
-				<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+				<button id="7" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="seven()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function seven(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("7").innerHTML="Registered";
+							document.getElementById("7").style.color="Yellow";
 						}
                     </script>
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4 last-img">
 				<img src="{% static 'images/Banner.jpg' %}">
 				<h3> UNDER 25 SUMMIT</h3>
-				<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+				<button id="8" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="eight()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function eight(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("8").innerHTML="Registered";
+							document.getElementById("8").style.color="Yellow";
 						}
                     </script>
 			</div><!-- End col-md-4 -->
@@ -231,36 +241,39 @@
 			<div class="col-md-4 col-sm-4">
 				<img src="{% static 'images/Dj.jpg' %}">
 				<h3>  HACKATHON</h3>
-				<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+				<button id="9" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="nine()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function nine(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("9").innerHTML="Registered";
+							document.getElementById("9").style.color="Yellow";
 						}
                     </script>
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4">
 				<img src="{% static 'images/codingpro.jpg' %}">
 				<h3>  TREASURE HUNT</h3>
-				<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+				<button id="10" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="ten()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function ten(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("10").innerHTML="Registered";
+							document.getElementById("10").style.color="Yellow";
 						}
                     </script>
 			</div><!-- End col-md-4 -->
 			<div class="col-md-4 col-sm-4 last-img">
 				<img src="{% static 'images/quizcompetition.jpg' %}">
 				<h3> QUIZ?</h3>
-				<button id="Output" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="change_text()"> Register</button>
+				<button id="11" style= "background-color: rgb(8, 8, 0); border-color: rgb(250, 66, 20); color:rgb(247, 59, 26);"   onclick="eleven()"> Register</button>
 
 				    <script type="text/Javascript">
-						function change_text(){
+						function eleven(){
 							alert('Registered Successfully');
-							document.getElementById("Output").innerHTML="Registered";
+							document.getElementById("11").innerHTML="Registered";
+							document.getElementById("11").style.color="Yellow";
 						}
                     </script>
 			</div><!-- End col-md-4 -->
